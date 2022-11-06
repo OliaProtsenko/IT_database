@@ -128,7 +128,7 @@ namespace IT_database
 
         private bool importData(string path)
         {
-            bool success=_dbManager.OpenDB(path);
+            bool success=_dbManager.ImportData(path);
             tabControl.TabPages.Clear();
           /*  List<string> tableNames = _dbManager.GetTableNames();
 

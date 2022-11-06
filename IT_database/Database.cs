@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IT_database
 {
-    class Database
+   public class Database
     {
         public string name;
         public List<Table> tables = new List<Table>();

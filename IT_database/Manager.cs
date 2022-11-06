@@ -8,7 +8,7 @@ using System.Text.RegularExpressions;
 
 namespace IT_database
 {
-    class Manager
+    public class Manager
     {
                private const char separator = '%';
             private const char space = '\t';
@@ -62,7 +62,7 @@ namespace IT_database
                 }
             }
 
-            public bool OpenDB(string path)
+            public bool ImportData(string path)
             {
                 try
                 {
